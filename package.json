@@ -1,8 +1,11 @@
 {
   "name": "rcy_tracker",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "browser": "dist/index.js",
+  "module": "dist/index.esm.js",
   "license": "MIT",
+  "files": ["dist"],
   "scripts": {
     "build": "rollup -c"
   },
